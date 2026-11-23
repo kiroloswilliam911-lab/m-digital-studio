@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#1768f2">
+    <title>M | حلول رقمية حديثة</title>
+    <meta name="description" content="نصمم ونبني تجارب رقمية سريعة وواضحة ومناسبة لنمو أعمالك.">
+    <link rel="stylesheet" href="{{ url_for('static', filename='dashboard.css', v='20261121-1') }}">
+  </head>
+
+  <body>
+  <header class="navbar">
+    <a class="logo" href="#home" aria-label="العودة للبداية">M</a>
+
+    <button class="menu-toggle" type="button" aria-label="فتح القائمة" aria-controls="main-nav" aria-expanded="false">☰</button>
+
+    <nav id="main-nav" aria-label="التنقل الرئيسي">
+      <a href="#home">الرئيسية</a>
+      <a href="#about">من نحن</a>
+      <a href="#services">الخدمات</a>
+      <a href="#portfolio">الأعمال</a>
+      <a href="#contact">تواصل معنا</a>
+    </nav>
+
+    <button class="language-toggle" id="language-toggle" type="button" aria-label="Switch language to English">EN</button>
+    <a class="started-button" href="#contact">ابدأ الآن <span aria-hidden="true">←</span></a>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <span class="eyebrow">حلول رقمية تصنع الفرق</span>
+        <h1>نبني شيئًا <span>مذهلاً</span></h1>
+        <p>نحوّل أفكارك إلى تجربة رقمية واضحة وسريعة تساعدك على النمو والتواصل مع جمهورك.</p>
+        <div class="hero-actions">
+          <a class="primary-button" href="#portfolio">شاهد أعمالنا <span aria-hidden="true">←</span></a>
+          <a class="secondary-button" href="#services">استكشف الخدمات <span aria-hidden="true">◀</span></a>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-label="Laptop illustration">
+        <div class="hero-glow" aria-hidden="true"></div>
+        <div class="tech-decoration" aria-hidden="true">
+          <div class="floating-window">
+            <i></i><i></i><i></i>
+          </div>
+          <div class="plant">
+            <i></i><i></i><i></i><i></i>
+            <span></span>
+          </div>
+          <div class="floating-card">
+            <b></b><i></i><i></i>
+          </div>
+        </div>
+        <div class="code-window">
+          <span>&lt;/&gt;</span>
+          <div class="code-lines" aria-hidden="true">
+            <i></i><i></i><i></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="features reveal" id="services">
+      <article class="feature-card reveal">
+        <div class="feature-icon">⚡</div>
+        <h2>أداء سريع</h2>
+        <p>مواقع خفيفة وسريعة تمنح زوارك تجربة سلسة وتزيد فرص التحويل.</p>
+      </article>
+      <article class="feature-card reveal">
+        <div class="feature-icon">◈</div>
+        <h2>تصميم عصري</h2>
+        <p>واجهات واضحة وأنيقة تعكس هوية علامتك وتجذب انتباه المستخدم.</p>
+      </article>
+      <article class="feature-card reveal">
+        <div class="feature-icon">✓</div>
+        <h2>حلول موثوقة</h2>
+        <p>برمجة منظمّة ومتجاوبة تعمل بكفاءة على مختلف الأجهزة والمتصفحات.</p>
+      </article>
+    </section>
+
+    <section class="about reveal" id="about">
+      <div class="about-copy">
+        <span class="eyebrow">من نحن</span>
+        <h2>نفهم الفكرة، ونصنع <span>التجربة المناسبة</span></h2>
+        <p>نطوّر مواقع وتطبيقات تركّز على هدف واضح، سهولة الاستخدام، وتصميم يجعل العلامة متقدّمة وموثوقة.</p>
+      </div>
+      <div class="about-stats" aria-label="إحصاءاتنا">
+        <div><strong>+25</strong><span>مشروعًا منجزًا</span></div>
+        <div><strong>98%</strong><span>رضا العملاء</span></div>
+        <div><strong>24/7</strong><span>دعم ومتابعة</span></div>
+      </div>
+    </section>
+
+    <section class="expertise reveal" id="expertise">
+      <div class="section-heading">
+        <div>
+          <span class="eyebrow">خبراتنا</span>
+          <h2>نحوّل الأفكار إلى منتجات متكاملة</h2>
+        </div>
+      </div>
+
+      <div class="expertise-grid">
+        <article class="skill-card">
+          <div class="skill-top"><span>01</span><strong>تصميم واجهات المستخدم</strong></div>
+          <p>تصاميم واضحة وسهلة الاستخدام تعكس هوية المشروع وتدعم أهدافه.</p>
+          <div class="skill-bar"><i style="--skill-width: 92%"></i></div>
+        </article>
+        <article class="skill-card">
+          <div class="skill-top"><span>02</span><strong>تطوير الواجهات</strong></div>
+          <p>تجارب متجاوبة وسريعة مبنية بتفاصيل دقيقة تعمل على جميع الأجهزة.</p>
+          <div class="skill-bar"><i style="--skill-width: 88%"></i></div>
+        </article>
+        <article class="skill-card">
+          <div class="skill-top"><span>03</span><strong>أنظمة ولوحات التحليل</strong></div>
+          <p>لوحات إدارية ذكية تساعدك على متابعة الأداء واتخاذ قرارات أسرع.</p>
+          <div class="skill-bar"><i style="--skill-width: 84%"></i></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="portfolio reveal" id="portfolio">
+      <div class="section-heading">
+        <div>
+          <span class="eyebrow">مختارات من أعمالنا</span>
+          <h2>مشاريع نصنع لها تأثيرًا</h2>
+        </div>
+        <a class="text-link" href="#contact">اعمل مشروعك معنا <span aria-hidden="true">←</span></a>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card">
+          <div class="project-preview preview-blue">
+            <div class="preview-browser" aria-hidden="true">
+              <div class="preview-top"><i></i><i></i><i></i></div>
+              <div class="preview-content"><b></b><span></span><span></span></div>
+            </div>
+          </div>
+          <div class="project-details">
+            <div>
+              <span>تطوير وتصميم</span>
+              <h3>منصة أعمال متكاملة</h3>
+            </div>
+            <span class="project-arrow" aria-hidden="true">↗</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-preview preview-purple">
+            <div class="phone-preview" aria-hidden="true">
+              <div class="phone-screen">
+                <i></i>
+                <b></b>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+          </div>
+          <div class="project-details">
+            <div>
+              <span>تصميم تطبيق</span>
+              <h3>تطبيق خدمات ذكي</h3>
+            </div>
+            <span class="project-arrow" aria-hidden="true">↗</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-preview preview-green">
+            <div class="dashboard-preview" aria-hidden="true">
+              <div class="dash-side"></div>
+              <div class="dash-main">
+                <b></b>
+                <div><i></i><i></i><i></i></div>
+              </div>
+            </div>
+          </div>
+          <div class="project-details">
+            <div>
+              <span>نظام لوحة تحكم</span>
+              <h3>لوحة تحليلات الأعمال</h3>
+            </div>
+            <span class="project-arrow" aria-hidden="true">↗</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="testimonials reveal" id="testimonials">
+      <div class="section-heading">
+        <div>
+          <span class="eyebrow">آراء العملاء</span>
+          <h2>نتائج تتحدث عن نفسها</h2>
+        </div>
+      </div>
+
+      <div class="testimonial-grid">
+        <article class="testimonial-card">
+          <div class="quote-mark" aria-hidden="true">“</div>
+          <p>فريق احترافي يفهم المطلوب ويقدّم تجربة أنيقة وسريعة، وسهّل علينا إطلاق المشروع بثقة.</p>
+          <div class="testimonial-author">
+            <span>ن</span>
+            <div><strong>نورة العتيبي</strong><small>مديرة مشروع تجاري</small></div>
+          </div>
+        </article>
+        <article class="testimonial-card featured-quote">
+          <div class="quote-mark" aria-hidden="true">“</div>
+          <p>التواصل كان واضحًا والتسليم منظمًا، والنتيجة النهائية تجاوزت توقعاتنا في التصميم والأداء.</p>
+          <div class="testimonial-author">
+            <span>س</span>
+            <div><strong>سالم الحربي</strong><small>مؤسس شركة ناشئة</small></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact reveal" id="contact">
+      <div class="contact-copy">
+        <span class="eyebrow">لديك فكرة؟</span>
+        <h2>لنحوّلها إلى مشروع حقيقي.</h2>
+        <p>أرسل تفاصيل مشروعك وسنساعدك في تحديد الخطوة الأولى.</p>
+      </div>
+
+      {% if success %}
+        <div class="form-success" role="status">
+          <strong>تم إرسال رسالتك بنجاح!</strong>
+          <span>سنرد عليك في أقرب وقت.</span>
+        </div>
+      {% endif %}
+
+      {% if error %}
+        <div class="form-error" role="alert">{{ error }}</div>
+      {% endif %}
+
+      <form class="contact-form" method="post" action="#contact">
+        <label>
+          الاسم
+          <input type="text" name="name" required autocomplete="name">
+        </label>
+        <label>
+          البريد الإلكتروني
+          <input type="email" name="email" required autocomplete="email">
+        </label>
+        <label>
+          تفاصيل المشروع
+          <textarea name="message" rows="4" required></textarea>
+        </label>
+        <button class="primary-button" type="submit">إرسال الرسالة <span aria-hidden="true">←</span></button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <a class="logo" href="#home">M</a>
+    <div class="footer-links" aria-label="روابط التواصل">
+      <a href="mailto:hello@example.com">البريد</a>
+      <a href="#portfolio">الأعمال</a>
+      <a href="#contact">التواصل</a>
+    </div>
+    <p>© 2026 جميع الحقوق محفوظة.</p>
+  </footer>
+
+  <button class="back-to-top" type="button" aria-label="العودة إلى أعلى الصفحة">↑</button>
+
+  <script src="{{ url_for('static', filename='motion.js', v='20261121-1') }}"></script>
+  <script>
+    const menuButton = document.querySelector('.menu-toggle');
+    const mainNav = document.querySelector('#main-nav');
+    const navLinks = mainNav.querySelectorAll('a');
+
+    menuButton.addEventListener('click', () => {
+      const isOpen = mainNav.classList.toggle('is-open');
+      menuButton.setAttribute('aria-expanded', String(isOpen));
+    });
+
+    navLinks.forEach((link) => {
+      link.addEventListener('click', () => {
+        mainNav.classList.remove('is-open');
+        menuButton.setAttribute('aria-expanded', 'false');
+      });
+    });
+  </script>
+</body>
+</html>
